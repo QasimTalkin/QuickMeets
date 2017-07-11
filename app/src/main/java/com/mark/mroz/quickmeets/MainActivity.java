@@ -1,8 +1,10 @@
 package com.mark.mroz.quickmeets;
 
 import android.app.Dialog;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
@@ -70,4 +72,11 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     public void onMapReady(GoogleMap googleMap) {
         mapView = googleMap;
     }
+
+    public void onClickSwitchList(View view) {
+        Intent intent = new Intent(this, Event_List.class);
+        startActivity(intent);
+    }
 }
+
+

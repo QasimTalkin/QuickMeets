@@ -41,7 +41,8 @@
         <activity android:name=".MainActivity" />
         <activity android:name=".Register" />
         <activity android:name=".UserProfile" />
-        <activity android:name=".Event_List"></activity>
+        <activity android:name=".Event_List" />
+        <activity android:name=".customeEventLayout"></activity>
     </application>
 
 </manifest>
